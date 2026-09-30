@@ -120,11 +120,18 @@
     }
 
     .card {
-      background: white;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
+  background: white;
+  padding: 28px 24px;
+  border-radius: 14px;
+  border-top: 4px solid #f2b705;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
 
     .card h3 {
       color: #172033;
